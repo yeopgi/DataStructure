@@ -1,0 +1,1 @@
+ADD_EXECUTABLE( Graph main.c Graph.c )

@@ -1,0 +1,34 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/yeopgi/vscode/DataStructure/c_c++_project/GraphTraversal/Graph.h
+stdio.h
+-
+stdlib.h
+-
+
+/home/yeopgi/vscode/DataStructure/c_c++_project/GraphTraversal/GraphTraversal.h
+Graph.h
+/home/yeopgi/vscode/DataStructure/c_c++_project/GraphTraversal/Graph.h
+LinkedQueue.h
+/home/yeopgi/vscode/DataStructure/c_c++_project/GraphTraversal/LinkedQueue.h
+
+/home/yeopgi/vscode/DataStructure/c_c++_project/GraphTraversal/LinkedQueue.h
+stdio.h
+-
+string.h
+-
+stdlib.h
+-
+
+/home/yeopgi/vscode/DataStructure/c_c++_project/GraphTraversal/main.c
+GraphTraversal.h
+/home/yeopgi/vscode/DataStructure/c_c++_project/GraphTraversal/GraphTraversal.h
+Graph.h
+/home/yeopgi/vscode/DataStructure/c_c++_project/GraphTraversal/Graph.h
+

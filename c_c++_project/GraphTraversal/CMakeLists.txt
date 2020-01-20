@@ -1,0 +1,1 @@
+ADD_EXECUTABLE( GraphTraversal main.c GraphTraversal.c LinkedQueue.c Graph.c )

@@ -1,0 +1,1 @@
+/usr/bin/cc   -rdynamic CMakeFiles/Graph.dir/main.c.o CMakeFiles/Graph.dir/Graph.c.o  -o Graph 
