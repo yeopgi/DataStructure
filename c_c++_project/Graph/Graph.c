@@ -1,5 +1,4 @@
 #include "Graph.h"
-
 Graph* CreateGraph()
 {
     Graph* graph = (Graph*)malloc(sizeof(Graph));

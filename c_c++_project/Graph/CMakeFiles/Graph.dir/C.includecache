@@ -6,13 +6,13 @@
 
 #IncludeRegexTransform: 
 
+/home/yeopgi/vscode/DataStructure/c_c++_project/Graph/Graph.c
+Graph.h
+/home/yeopgi/vscode/DataStructure/c_c++_project/Graph/Graph.h
+
 /home/yeopgi/vscode/DataStructure/c_c++_project/Graph/Graph.h
 stdio.h
 -
 stdlib.h
 -
-
-/home/yeopgi/vscode/DataStructure/c_c++_project/Graph/main.c
-Graph.h
-/home/yeopgi/vscode/DataStructure/c_c++_project/Graph/Graph.h
 
