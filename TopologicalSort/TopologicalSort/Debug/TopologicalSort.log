@@ -1,2 +1,9 @@
-﻿  main.c
-  TopologicalSort.vcxproj -> C:\Users\김동민\Source\Repos\yeopgi\DataStructure\TopologicalSort\Debug\TopologicalSort.exe
+﻿  LinkedList.c
+c:\users\김동민\source\repos\yeopgi\datastructure\topologicalsort\topologicalsort\linkedlist.h(9): error C2040: 'ElementType': 'Vertex *'의 간접 참조 수준이 'int'과(와) 다릅니다.
+  main.c
+c:\users\김동민\source\repos\yeopgi\datastructure\topologicalsort\topologicalsort\linkedlist.h(9): error C2040: 'ElementType': 'Vertex *'의 간접 참조 수준이 'int'과(와) 다릅니다.
+  TopologicalSort.c
+c:\users\김동민\source\repos\yeopgi\datastructure\topologicalsort\topologicalsort\linkedlist.h(9): error C2040: 'ElementType': 'Vertex *'의 간접 참조 수준이 'int'과(와) 다릅니다.
+c:\users\김동민\source\repos\yeopgi\datastructure\topologicalsort\topologicalsort\topologicalsort.c(32): warning C4047: '함수': 'ElementType'의 간접 참조 수준이 'Vertex *'과(와) 다릅니다.
+c:\users\김동민\source\repos\yeopgi\datastructure\topologicalsort\topologicalsort\topologicalsort.c(32): warning C4024: 'SLL_CreateNode': 형식 및 실제 매개 변수 1의 형식이 서로 다릅니다.
+  코드를 생성하고 있습니다...
