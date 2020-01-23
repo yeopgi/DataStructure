@@ -45,6 +45,7 @@ void  HEAP_Insert(Heap* H, ElementType NewData)
 	H->UsedSize++;
 }
 
+
 void      HEAP_SwapNodes(Heap* H, int Index1, int Index2)
 {
 	int CopySize = sizeof(HeapNode);
