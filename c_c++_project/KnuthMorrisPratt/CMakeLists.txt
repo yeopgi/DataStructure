@@ -1,0 +1,1 @@
+ADD_EXECUTABLE(kmp main.c KnuthMorrisPratt.c)

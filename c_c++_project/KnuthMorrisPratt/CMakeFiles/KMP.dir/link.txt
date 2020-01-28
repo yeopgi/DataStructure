@@ -1,0 +1,1 @@
+/usr/bin/cc   -rdynamic CMakeFiles/KMP.dir/main.c.o CMakeFiles/KMP.dir/KnuthMorrisPratt.c.o  -o KMP 
