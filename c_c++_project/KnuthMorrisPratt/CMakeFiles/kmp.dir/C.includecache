@@ -1,0 +1,28 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/yeopgi/vscode/DataStruct/c_c++_project/KnuthMorrisPratt/KnuthMorrisPratt.c
+KnuthMorrisPratt.h
+/home/yeopgi/vscode/DataStruct/c_c++_project/KnuthMorrisPratt/KnuthMorrisPratt.h
+stdlib.h
+-
+
+/home/yeopgi/vscode/DataStruct/c_c++_project/KnuthMorrisPratt/KnuthMorrisPratt.h
+stdio.h
+-
+
+/home/yeopgi/vscode/DataStruct/c_c++_project/KnuthMorrisPratt/main.c
+stdio.h
+-
+string.h
+-
+time.h
+-
+KnuthMorrisPratt.h
+/home/yeopgi/vscode/DataStruct/c_c++_project/KnuthMorrisPratt/KnuthMorrisPratt.h
+
