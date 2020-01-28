@@ -4,8 +4,8 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
-  "/home/yeopgi/vscode/DataStruct/c_c++_project/KnuthMorrisPratt/KnuthMorrisPratt.c" "/home/yeopgi/vscode/DataStruct/c_c++_project/KnuthMorrisPratt/CMakeFiles/KMP.dir/KnuthMorrisPratt.c.o"
-  "/home/yeopgi/vscode/DataStruct/c_c++_project/KnuthMorrisPratt/main.c" "/home/yeopgi/vscode/DataStruct/c_c++_project/KnuthMorrisPratt/CMakeFiles/KMP.dir/main.c.o"
+  "/home/yeopgi/vscode/DataStruct/c_c++_project/KnuthMorrisPratt/KnuthMorrisPratt.c" "/home/yeopgi/vscode/DataStruct/c_c++_project/KnuthMorrisPratt/CMakeFiles/kmp.dir/KnuthMorrisPratt.c.o"
+  "/home/yeopgi/vscode/DataStruct/c_c++_project/KnuthMorrisPratt/main.c" "/home/yeopgi/vscode/DataStruct/c_c++_project/KnuthMorrisPratt/CMakeFiles/kmp.dir/main.c.o"
   )
 set(CMAKE_C_COMPILER_ID "GNU")
 

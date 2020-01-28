@@ -49,65 +49,65 @@ CMAKE_SOURCE_DIR = /home/yeopgi/vscode/DataStruct/c_c++_project/KnuthMorrisPratt
 CMAKE_BINARY_DIR = /home/yeopgi/vscode/DataStruct/c_c++_project/KnuthMorrisPratt
 
 # Include any dependencies generated for this target.
-include CMakeFiles/KMP.dir/depend.make
+include CMakeFiles/kmp.dir/depend.make
 
 # Include the progress variables for this target.
-include CMakeFiles/KMP.dir/progress.make
+include CMakeFiles/kmp.dir/progress.make
 
 # Include the compile flags for this target's objects.
-include CMakeFiles/KMP.dir/flags.make
+include CMakeFiles/kmp.dir/flags.make
 
-CMakeFiles/KMP.dir/main.c.o: CMakeFiles/KMP.dir/flags.make
-CMakeFiles/KMP.dir/main.c.o: main.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/yeopgi/vscode/DataStruct/c_c++_project/KnuthMorrisPratt/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/KMP.dir/main.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/KMP.dir/main.c.o   -c /home/yeopgi/vscode/DataStruct/c_c++_project/KnuthMorrisPratt/main.c
+CMakeFiles/kmp.dir/main.c.o: CMakeFiles/kmp.dir/flags.make
+CMakeFiles/kmp.dir/main.c.o: main.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/yeopgi/vscode/DataStruct/c_c++_project/KnuthMorrisPratt/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/kmp.dir/main.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/kmp.dir/main.c.o   -c /home/yeopgi/vscode/DataStruct/c_c++_project/KnuthMorrisPratt/main.c
 
-CMakeFiles/KMP.dir/main.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/KMP.dir/main.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/yeopgi/vscode/DataStruct/c_c++_project/KnuthMorrisPratt/main.c > CMakeFiles/KMP.dir/main.c.i
+CMakeFiles/kmp.dir/main.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/kmp.dir/main.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/yeopgi/vscode/DataStruct/c_c++_project/KnuthMorrisPratt/main.c > CMakeFiles/kmp.dir/main.c.i
 
-CMakeFiles/KMP.dir/main.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/KMP.dir/main.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/yeopgi/vscode/DataStruct/c_c++_project/KnuthMorrisPratt/main.c -o CMakeFiles/KMP.dir/main.c.s
+CMakeFiles/kmp.dir/main.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/kmp.dir/main.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/yeopgi/vscode/DataStruct/c_c++_project/KnuthMorrisPratt/main.c -o CMakeFiles/kmp.dir/main.c.s
 
-CMakeFiles/KMP.dir/KnuthMorrisPratt.c.o: CMakeFiles/KMP.dir/flags.make
-CMakeFiles/KMP.dir/KnuthMorrisPratt.c.o: KnuthMorrisPratt.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/yeopgi/vscode/DataStruct/c_c++_project/KnuthMorrisPratt/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/KMP.dir/KnuthMorrisPratt.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/KMP.dir/KnuthMorrisPratt.c.o   -c /home/yeopgi/vscode/DataStruct/c_c++_project/KnuthMorrisPratt/KnuthMorrisPratt.c
+CMakeFiles/kmp.dir/KnuthMorrisPratt.c.o: CMakeFiles/kmp.dir/flags.make
+CMakeFiles/kmp.dir/KnuthMorrisPratt.c.o: KnuthMorrisPratt.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/yeopgi/vscode/DataStruct/c_c++_project/KnuthMorrisPratt/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/kmp.dir/KnuthMorrisPratt.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/kmp.dir/KnuthMorrisPratt.c.o   -c /home/yeopgi/vscode/DataStruct/c_c++_project/KnuthMorrisPratt/KnuthMorrisPratt.c
 
-CMakeFiles/KMP.dir/KnuthMorrisPratt.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/KMP.dir/KnuthMorrisPratt.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/yeopgi/vscode/DataStruct/c_c++_project/KnuthMorrisPratt/KnuthMorrisPratt.c > CMakeFiles/KMP.dir/KnuthMorrisPratt.c.i
+CMakeFiles/kmp.dir/KnuthMorrisPratt.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/kmp.dir/KnuthMorrisPratt.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/yeopgi/vscode/DataStruct/c_c++_project/KnuthMorrisPratt/KnuthMorrisPratt.c > CMakeFiles/kmp.dir/KnuthMorrisPratt.c.i
 
-CMakeFiles/KMP.dir/KnuthMorrisPratt.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/KMP.dir/KnuthMorrisPratt.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/yeopgi/vscode/DataStruct/c_c++_project/KnuthMorrisPratt/KnuthMorrisPratt.c -o CMakeFiles/KMP.dir/KnuthMorrisPratt.c.s
+CMakeFiles/kmp.dir/KnuthMorrisPratt.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/kmp.dir/KnuthMorrisPratt.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/yeopgi/vscode/DataStruct/c_c++_project/KnuthMorrisPratt/KnuthMorrisPratt.c -o CMakeFiles/kmp.dir/KnuthMorrisPratt.c.s
 
-# Object files for target KMP
-KMP_OBJECTS = \
-"CMakeFiles/KMP.dir/main.c.o" \
-"CMakeFiles/KMP.dir/KnuthMorrisPratt.c.o"
+# Object files for target kmp
+kmp_OBJECTS = \
+"CMakeFiles/kmp.dir/main.c.o" \
+"CMakeFiles/kmp.dir/KnuthMorrisPratt.c.o"
 
-# External object files for target KMP
-KMP_EXTERNAL_OBJECTS =
+# External object files for target kmp
+kmp_EXTERNAL_OBJECTS =
 
-KMP: CMakeFiles/KMP.dir/main.c.o
-KMP: CMakeFiles/KMP.dir/KnuthMorrisPratt.c.o
-KMP: CMakeFiles/KMP.dir/build.make
-KMP: CMakeFiles/KMP.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/yeopgi/vscode/DataStruct/c_c++_project/KnuthMorrisPratt/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking C executable KMP"
-	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/KMP.dir/link.txt --verbose=$(VERBOSE)
+kmp: CMakeFiles/kmp.dir/main.c.o
+kmp: CMakeFiles/kmp.dir/KnuthMorrisPratt.c.o
+kmp: CMakeFiles/kmp.dir/build.make
+kmp: CMakeFiles/kmp.dir/link.txt
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/yeopgi/vscode/DataStruct/c_c++_project/KnuthMorrisPratt/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking C executable kmp"
+	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/kmp.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
-CMakeFiles/KMP.dir/build: KMP
+CMakeFiles/kmp.dir/build: kmp
 
-.PHONY : CMakeFiles/KMP.dir/build
+.PHONY : CMakeFiles/kmp.dir/build
 
-CMakeFiles/KMP.dir/clean:
-	$(CMAKE_COMMAND) -P CMakeFiles/KMP.dir/cmake_clean.cmake
-.PHONY : CMakeFiles/KMP.dir/clean
+CMakeFiles/kmp.dir/clean:
+	$(CMAKE_COMMAND) -P CMakeFiles/kmp.dir/cmake_clean.cmake
+.PHONY : CMakeFiles/kmp.dir/clean
 
-CMakeFiles/KMP.dir/depend:
-	cd /home/yeopgi/vscode/DataStruct/c_c++_project/KnuthMorrisPratt && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/yeopgi/vscode/DataStruct/c_c++_project/KnuthMorrisPratt /home/yeopgi/vscode/DataStruct/c_c++_project/KnuthMorrisPratt /home/yeopgi/vscode/DataStruct/c_c++_project/KnuthMorrisPratt /home/yeopgi/vscode/DataStruct/c_c++_project/KnuthMorrisPratt /home/yeopgi/vscode/DataStruct/c_c++_project/KnuthMorrisPratt/CMakeFiles/KMP.dir/DependInfo.cmake --color=$(COLOR)
-.PHONY : CMakeFiles/KMP.dir/depend
+CMakeFiles/kmp.dir/depend:
+	cd /home/yeopgi/vscode/DataStruct/c_c++_project/KnuthMorrisPratt && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/yeopgi/vscode/DataStruct/c_c++_project/KnuthMorrisPratt /home/yeopgi/vscode/DataStruct/c_c++_project/KnuthMorrisPratt /home/yeopgi/vscode/DataStruct/c_c++_project/KnuthMorrisPratt /home/yeopgi/vscode/DataStruct/c_c++_project/KnuthMorrisPratt /home/yeopgi/vscode/DataStruct/c_c++_project/KnuthMorrisPratt/CMakeFiles/kmp.dir/DependInfo.cmake --color=$(COLOR)
+.PHONY : CMakeFiles/kmp.dir/depend
 

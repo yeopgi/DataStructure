@@ -20,8 +20,8 @@
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
-    <ProjectGuid>{54FDA8AA-5649-4563-B314-E56C5972DE9A}</ProjectGuid>
-    <RootNamespace>MST</RootNamespace>
+    <ProjectGuid>{102FCBDA-972C-40D8-8649-19F6A55D6CF0}</ProjectGuid>
+    <RootNamespace>BoyerMoore</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -123,16 +123,11 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClInclude Include="DisjointSet.h" />
-    <ClInclude Include="Graph.h" />
-    <ClInclude Include="MST.h" />
-    <ClInclude Include="PriorityQueue.h" />
+    <ClInclude Include="BoyerMoore.h" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="DisjointSet.c" />
-    <ClCompile Include="Graph.c" />
-    <ClCompile Include="MST.c" />
-    <ClCompile Include="PriorityQueue.c" />
+    <ClCompile Include="BoyerMoore.c" />
+    <ClCompile Include="main.c" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
