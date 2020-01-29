@@ -1,0 +1,3 @@
+/home/yeopgi/vscode/DataStruct/c_c++_project/Makinigchange/CMakeFiles/rebuild_cache.dir
+/home/yeopgi/vscode/DataStruct/c_c++_project/Makinigchange/CMakeFiles/Greedy.dir
+/home/yeopgi/vscode/DataStruct/c_c++_project/Makinigchange/CMakeFiles/edit_cache.dir

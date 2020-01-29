@@ -1,0 +1,1 @@
+ADD_EXECUTABLE(Greedy main.c MakingChange.c)

@@ -1,0 +1,16 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/yeopgi/vscode/DataStruct/c_c++_project/Makinigchange/MakingChange.c
+MakingChange.h
+/home/yeopgi/vscode/DataStruct/c_c++_project/Makinigchange/MakingChange.h
+stdio.h
+-
+
+/home/yeopgi/vscode/DataStruct/c_c++_project/Makinigchange/MakingChange.h
+

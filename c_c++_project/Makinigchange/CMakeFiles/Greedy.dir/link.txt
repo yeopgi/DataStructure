@@ -1,0 +1,1 @@
+/usr/bin/cc   -rdynamic CMakeFiles/Greedy.dir/main.c.o CMakeFiles/Greedy.dir/MakingChange.c.o  -o Greedy 
