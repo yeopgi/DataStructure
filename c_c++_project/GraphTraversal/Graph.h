@@ -16,7 +16,7 @@ typedef struct tagVertex
     int         Visited;
     int Index;
     struct tagVertex* Next;
-    struct tagEdge* AdjacencyLst;
+    struct tagEdge* AdjacencyList;
 }Vertex;
 
 typedef struct tagEdge

@@ -24,7 +24,7 @@ Vertex* CreateVertex(ElementType Data)
     Vertex* V = (Vertex*)malloc(sizeof(Vertex));
     V->Data = Data;
     V->Next = NULL;
-    V->AdjacencyLst = NULL;
+    V->AdjacencyList = NULL;
     V->Visited = NotVisited;
     V->Index = -1;
 
@@ -33,11 +33,11 @@ Vertex* CreateVertex(ElementType Data)
 
 void DestroyVertex(Vertex* V)
 {
-    while(V->AdjacencyLst != NULL) {
-        Edge* Edge = V->AdjacencyLst->Next;
-        DestroyEdge(V->AdjacencyLst);
+    while(V->AdjacencyList != NULL) {
+        Edge* Edge = V->AdjacencyList->Next;
+        DestroyEdge(V->AdjacencyList);
 
-        V->AdjacencyLst = Edge;
+        V->AdjacencyList = Edge;
     }
 
     free(V);
@@ -77,10 +77,10 @@ void AddVertex(Graph* G, Vertex* V)
 
 void AddEdge(Vertex* V, Edge* E)
 {
-    if (V->AdjacencyLst == NULL) {
-        V->AdjacencyLst = E;
+    if (V->AdjacencyList == NULL) {
+        V->AdjacencyList = E;
     } else {
-        Edge* AdjacencyList = V->AdjacencyLst;
+        Edge* AdjacencyList = V->AdjacencyList;
         while (AdjacencyList->Next != NULL) {
             AdjacencyList = AdjacencyList->Next;
         }
@@ -100,7 +100,7 @@ void PrintGraph(Graph* G)
     while (V!= NULL) {
         printf("%c : ", V->Data);
 
-        if ((E = V->AdjacencyLst) == NULL) {
+        if ((E = V->AdjacencyList) == NULL) {
             V = V->Next;
             printf("\n");
             continue;
