@@ -1,0 +1,1 @@
+ADD_EXECUTABLE(MazeSolver main.c MazeSolver.c)
