@@ -45,7 +45,7 @@ void QuickSort(int DataSet[], int Left, int Right)
 int main(void)
 {
     int DataSet[] = {6, 4, 2, 3, 1, 5};
-    int Length = sizeof DataSet / sizeof DataSet[0];
+    int Length = sizeof (DataSet) / sizeof (DataSet[0]);
     int i = 0;
     QuickSort(DataSet, 0, Length - 1);
     
