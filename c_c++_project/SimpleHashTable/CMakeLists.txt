@@ -1,0 +1,1 @@
+ADD_EXECUTABLE(SimpleHashTable main.c SimpleHashTable.c)
