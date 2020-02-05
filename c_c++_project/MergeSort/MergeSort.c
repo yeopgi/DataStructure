@@ -14,6 +14,8 @@ void MergeSort(int DataSet[], int StartIndex, int EndIndex)
     MiddleIndex = (StartIndex + EndIndex) / 2;
     MergeSort(DataSet, StartIndex, MiddleIndex);
     MergeSort(DataSet, MiddleIndex + 1, EndIndex);
+
+    Merge(DataSet, StartIndex, MiddleIndex, EndIndex);
 }
 
 void Merge(int DataSet[], int StartIndex, int MiddleIndex, int EndIndex)
